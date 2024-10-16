@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Freelancer Forum</title>
+  </head>
+  <body>
+    <div id="poster">
+      <h1>Freelancer Forum</h1>
+      <div>The average starting price is $<span id="averageStartingPrice">30</span></div>
+      
+      <h3>Available Freelancers</h3>
+      <div class="table">
+        <!-- Header Row -->
+        <div class="freelancer">
+          <span><strong>Name</strong></span>
+          <span><strong>Occupation</strong></span>
+          <span><strong>Starting Price</strong></span>
+        </div>
+
+        <!-- Static Freelancer (Alice) -->
+        <div class="freelancer">
+          <span>Alice</span>
+          <span>Writer</span>
+          <span>$30</span>
+        </div>
+
+        <!-- Dynamic Freelancer Entries will be appended here  -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
